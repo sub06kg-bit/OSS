@@ -1,0 +1,26 @@
+{
+  "sat_01": {
+    "online": true
+  },
+  "sat_02": {
+    "online": false
+  },
+  "sat_03": {
+    "online": true
+  },
+  "sat_04": {
+    "online": true
+  },
+  "sat_05": {
+    "online": true
+  },
+  "sat_06": {
+    "online": true
+  },
+  "sat_07": {
+    "online": true
+  },
+  "sat_08": {
+    "online": true
+  }
+}

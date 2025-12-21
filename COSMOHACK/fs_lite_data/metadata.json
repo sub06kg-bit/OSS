@@ -1,0 +1,372 @@
+{
+  "demo_test.txt": {
+    "file_name": "demo_test.txt",
+    "size": 1500,
+    "chunk_size": 50,
+    "total_chunks": 30,
+    "strategy": "round_robin",
+    "replication": 2,
+    "chunks": {
+      "0": [
+        {
+          "node": "sat_01",
+          "chunk_filename": "demo_test.txt.chunk0",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        },
+        {
+          "node": "sat_02",
+          "chunk_filename": "demo_test.txt.chunk0",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        }
+      ],
+      "1": [
+        {
+          "node": "sat_02",
+          "chunk_filename": "demo_test.txt.chunk1",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        },
+        {
+          "node": "sat_03",
+          "chunk_filename": "demo_test.txt.chunk1",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        }
+      ],
+      "2": [
+        {
+          "node": "sat_03",
+          "chunk_filename": "demo_test.txt.chunk2",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        },
+        {
+          "node": "sat_04",
+          "chunk_filename": "demo_test.txt.chunk2",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        }
+      ],
+      "3": [
+        {
+          "node": "sat_04",
+          "chunk_filename": "demo_test.txt.chunk3",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        },
+        {
+          "node": "sat_05",
+          "chunk_filename": "demo_test.txt.chunk3",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        }
+      ],
+      "4": [
+        {
+          "node": "sat_05",
+          "chunk_filename": "demo_test.txt.chunk4",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        },
+        {
+          "node": "sat_06",
+          "chunk_filename": "demo_test.txt.chunk4",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        }
+      ],
+      "5": [
+        {
+          "node": "sat_06",
+          "chunk_filename": "demo_test.txt.chunk5",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        },
+        {
+          "node": "sat_07",
+          "chunk_filename": "demo_test.txt.chunk5",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        }
+      ],
+      "6": [
+        {
+          "node": "sat_07",
+          "chunk_filename": "demo_test.txt.chunk6",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        },
+        {
+          "node": "sat_08",
+          "chunk_filename": "demo_test.txt.chunk6",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        }
+      ],
+      "7": [
+        {
+          "node": "sat_08",
+          "chunk_filename": "demo_test.txt.chunk7",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        },
+        {
+          "node": "sat_01",
+          "chunk_filename": "demo_test.txt.chunk7",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        }
+      ],
+      "8": [
+        {
+          "node": "sat_01",
+          "chunk_filename": "demo_test.txt.chunk8",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        },
+        {
+          "node": "sat_02",
+          "chunk_filename": "demo_test.txt.chunk8",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        }
+      ],
+      "9": [
+        {
+          "node": "sat_02",
+          "chunk_filename": "demo_test.txt.chunk9",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        },
+        {
+          "node": "sat_03",
+          "chunk_filename": "demo_test.txt.chunk9",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        }
+      ],
+      "10": [
+        {
+          "node": "sat_03",
+          "chunk_filename": "demo_test.txt.chunk10",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        },
+        {
+          "node": "sat_04",
+          "chunk_filename": "demo_test.txt.chunk10",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        }
+      ],
+      "11": [
+        {
+          "node": "sat_04",
+          "chunk_filename": "demo_test.txt.chunk11",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        },
+        {
+          "node": "sat_05",
+          "chunk_filename": "demo_test.txt.chunk11",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        }
+      ],
+      "12": [
+        {
+          "node": "sat_05",
+          "chunk_filename": "demo_test.txt.chunk12",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        },
+        {
+          "node": "sat_06",
+          "chunk_filename": "demo_test.txt.chunk12",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        }
+      ],
+      "13": [
+        {
+          "node": "sat_06",
+          "chunk_filename": "demo_test.txt.chunk13",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        },
+        {
+          "node": "sat_07",
+          "chunk_filename": "demo_test.txt.chunk13",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        }
+      ],
+      "14": [
+        {
+          "node": "sat_07",
+          "chunk_filename": "demo_test.txt.chunk14",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        },
+        {
+          "node": "sat_08",
+          "chunk_filename": "demo_test.txt.chunk14",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        }
+      ],
+      "15": [
+        {
+          "node": "sat_08",
+          "chunk_filename": "demo_test.txt.chunk15",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        },
+        {
+          "node": "sat_01",
+          "chunk_filename": "demo_test.txt.chunk15",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        }
+      ],
+      "16": [
+        {
+          "node": "sat_01",
+          "chunk_filename": "demo_test.txt.chunk16",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        },
+        {
+          "node": "sat_02",
+          "chunk_filename": "demo_test.txt.chunk16",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        }
+      ],
+      "17": [
+        {
+          "node": "sat_02",
+          "chunk_filename": "demo_test.txt.chunk17",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        },
+        {
+          "node": "sat_03",
+          "chunk_filename": "demo_test.txt.chunk17",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        }
+      ],
+      "18": [
+        {
+          "node": "sat_03",
+          "chunk_filename": "demo_test.txt.chunk18",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        },
+        {
+          "node": "sat_04",
+          "chunk_filename": "demo_test.txt.chunk18",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        }
+      ],
+      "19": [
+        {
+          "node": "sat_04",
+          "chunk_filename": "demo_test.txt.chunk19",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        },
+        {
+          "node": "sat_05",
+          "chunk_filename": "demo_test.txt.chunk19",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        }
+      ],
+      "20": [
+        {
+          "node": "sat_05",
+          "chunk_filename": "demo_test.txt.chunk20",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        },
+        {
+          "node": "sat_06",
+          "chunk_filename": "demo_test.txt.chunk20",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        }
+      ],
+      "21": [
+        {
+          "node": "sat_06",
+          "chunk_filename": "demo_test.txt.chunk21",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        },
+        {
+          "node": "sat_07",
+          "chunk_filename": "demo_test.txt.chunk21",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        }
+      ],
+      "22": [
+        {
+          "node": "sat_07",
+          "chunk_filename": "demo_test.txt.chunk22",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        },
+        {
+          "node": "sat_08",
+          "chunk_filename": "demo_test.txt.chunk22",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        }
+      ],
+      "23": [
+        {
+          "node": "sat_08",
+          "chunk_filename": "demo_test.txt.chunk23",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        },
+        {
+          "node": "sat_01",
+          "chunk_filename": "demo_test.txt.chunk23",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        }
+      ],
+      "24": [
+        {
+          "node": "sat_01",
+          "chunk_filename": "demo_test.txt.chunk24",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        },
+        {
+          "node": "sat_02",
+          "chunk_filename": "demo_test.txt.chunk24",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        }
+      ],
+      "25": [
+        {
+          "node": "sat_02",
+          "chunk_filename": "demo_test.txt.chunk25",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        },
+        {
+          "node": "sat_03",
+          "chunk_filename": "demo_test.txt.chunk25",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        }
+      ],
+      "26": [
+        {
+          "node": "sat_03",
+          "chunk_filename": "demo_test.txt.chunk26",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        },
+        {
+          "node": "sat_04",
+          "chunk_filename": "demo_test.txt.chunk26",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        }
+      ],
+      "27": [
+        {
+          "node": "sat_04",
+          "chunk_filename": "demo_test.txt.chunk27",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        },
+        {
+          "node": "sat_05",
+          "chunk_filename": "demo_test.txt.chunk27",
+          "hash": "fbc79e3f30a60a1ab506d8d13cc9b4c5eee155304bf766264d4f9d7793a0528a"
+        }
+      ],
+      "28": [
+        {
+          "node": "sat_05",
+          "chunk_filename": "demo_test.txt.chunk28",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        },
+        {
+          "node": "sat_06",
+          "chunk_filename": "demo_test.txt.chunk28",
+          "hash": "13d003cc525be2d23ca86a9d11a508bec6039eb9205ac52d40e17d85a0d8ca15"
+        }
+      ],
+      "29": [
+        {
+          "node": "sat_06",
+          "chunk_filename": "demo_test.txt.chunk29",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        },
+        {
+          "node": "sat_07",
+          "chunk_filename": "demo_test.txt.chunk29",
+          "hash": "6a06a2cb28427427992a05c9d2c3ff8a55d635c7962f480ff65b772ac56e75f1"
+        }
+      ]
+    }
+  }
+}
