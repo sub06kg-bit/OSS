@@ -71,7 +71,7 @@ python fs_lite_cli.py status
 
 ## 🎬 Demo Video
 
-[▶️ Watch Demo on YouTube](https://youtu.be/YOUR_VIDEO_ID)
+[▶️ Watch Demo on YouTube](https://www.youtube.com/watch?v=DT6ajf4hz-A&feature=youtu.be)
 
 ---
 
