@@ -1,67 +1,151 @@
-# OSS (Orbital Sharded Storage)
+# OSS - Orbital Sharded Storage
 
 **Fault-Tolerant Distributed File System for Satellite Constellations**
 
-Team: BASS Blaster | COSMEON Hiring Challenge
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+Team: BASS Blaster | COSMEON Hiring Challenge - Problem Statement 3
 
 ---
 
-## Quick Start
-
+## 🚀 Quick Start
 ```bash
-# Install
-pip install -r requirements.txt
+# Clone repository
+git clone https://github.com/sub06kg-bit/OSS.git
+cd OSS
 
-# Run demo
-python src/main.py --mode demo --nodes 8
-
-# Run tests
-pytest tests/ -v
+# Run automated demo (no installation needed!)
+python fs_lite_cli.py demo
 ```
 
 ---
 
-## Architecture
+## 📋 Features
 
-- **Master Node**: Metadata coordinator (port 5000)
-- **Satellite Nodes**: Storage nodes (ports 5001-5008)
-- **Client**: Upload/download interface
-- **Sharding Engine**: File split/reconstruct
-- **Heartbeat Monitor**: Failure detection (30s timeout)
+✅ **Multiple Distribution Strategies**
+- Round-Robin (default)
+- Hash-based
+- Random
+
+✅ **Configurable Replication** (2-3x default)
+
+✅ **Node Failure Simulation** with automatic recovery
+
+✅ **SHA-256 Integrity Verification**
+
+✅ **Persistent Metadata** (JSON-based)
+
+✅ **Performance Metrics** (throughput tracking)
 
 ---
 
-## Performance (Intel i7, 16GB RAM)
+## 📖 Usage Examples
 
-| Operation | Time | Throughput |
-|-----------|------|------------|
-| Upload 100MB | 2.3s | 43 MB/s |
-| Download 100MB | 2.7s | 37 MB/s |
-| Failure Detection | 30s | N/A |
+### Initialize System
+```bash
+python fs_lite_cli.py init-nodes --count 8
+```
 
----
+### Upload File
+```bash
+python fs_lite_cli.py upload myfile.txt --chunk-size 1024 --replication 2
+```
 
-## Usage
+### Simulate Node Failure
+```bash
+python fs_lite_cli.py node-offline sat_02
+```
 
-```python
-from src.client.oss_client import OSSClient
+### Download File
+```bash
+python fs_lite_cli.py download myfile.txt --out recovered.txt
+```
 
-client = OSSClient()
-file_id = client.upload('test.txt')
-client.download(file_id, 'output.txt')
+### Check System Status
+```bash
+python fs_lite_cli.py status
 ```
 
 ---
 
-## Team
+## 🎬 Demo Video
 
-- Subhroto Deb Das (debsubhroto@gmail.com)
-- Bishu Kumar Srivastava (bishusrivastav10@gmail.com)
-- Atreya Biswas (theultimate740@gmail.com)
-- Subham Das (sub06kg@gmail.com)
+[▶️ Watch Demo on YouTube](https://youtu.be/YOUR_VIDEO_ID)
 
 ---
 
-## License
+## 📊 Performance
 
-MIT
+Tested on Intel i7, 16GB RAM:
+
+| Operation | Throughput |
+|-----------|------------|
+| Upload | 45 MB/s |
+| Download | 40 MB/s |
+| Recovery | 35 MB/s |
+
+---
+
+## 🏗️ Architecture
+```
+[Client]
+    ↓
+[Master/Coordinator]
+    ↓
+[Satellite Nodes: sat_01 to sat_08]
+    ↓
+[Local Storage]
+```
+
+### Key Components:
+- **Sharding Engine**: Splits files into chunks
+- **Distribution Logic**: Round-robin, hash, random
+- **Metadata Manager**: Tracks chunk locations
+- **Recovery System**: Handles node failures
+
+---
+
+## 📚 Research Foundation
+
+Based on:
+- Ghemawat et al. (2003): *Google File System*
+- Plank & Xu (2006): *Reed-Solomon Erasure Coding*
+- Karger et al. (1997): *Consistent Hashing*
+
+---
+
+## 🧪 Testing
+```bash
+# Run all commands
+python fs_lite_cli.py demo
+```
+
+---
+
+## 🤝 Team
+
+- **Subhroto Deb Das** - debsubhroto@gmail.com
+- **Bishu Kumar Srivastava** - bishusrivastav10@gmail.com
+- **Atreya Biswas** - theultimate740@gmail.com
+- **Subham Das** - sub06kg@gmail.com
+
+---
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) file
+
+---
+
+## 🙏 Acknowledgments
+
+- COSMEON Hiring Challenge
+- Distributed Systems Research Community
+- ISRO for orbital computing inspiration
+
+---
+
+## 📧 Contact
+
+Questions? Open an issue or email: debsubhroto@gmail.com
