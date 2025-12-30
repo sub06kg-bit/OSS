@@ -1,0 +1,17 @@
+# Core backend
+Flask==3.0.0
+requests==2.31.0
+
+# API / platform (future-safe)
+fastapi==0.110.0
+uvicorn==0.27.1
+
+# Persistence
+sqlite-utils==3.35
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Observability
+python-json-logger==2.0.7

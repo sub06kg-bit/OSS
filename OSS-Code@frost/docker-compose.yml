@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  master:
+    build: ./backend
+    command: python -m src.main --mode init
+    ports:
+      - "5000:5000"
+
+  api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - master
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
